@@ -1,0 +1,155 @@
+body,div,ul,li,h1,h2,h3,h4,h5,h6,form,fieldset,p{padding:0; margin:0; font-weight:normal; text-align:left}
+body{font:14px/18px Arial, Helvetica, sans-serif; color:#48494f; background:#fff url(../images/body_bg.gif) repeat-x 0 0; height:100%}
+body.inner{background:#fff url(../images/body_bg_inner.gif) repeat-x 0 0;}
+img,fieldset{border:none; margin:0; padding:0;}
+.left{float:left;}
+.right{float:right; width:auto;}
+.full{float:left; width:100%;}
+.curv{float:left; width:100%}
+.curv img{float:left}
+span.clear{clear:both;}
+
+a:focus{outline:none}
+input:focus{outline:none;}
+
+#wrapper{width:998px; margin:0 auto;}
+
+#header{float:left; width:100%;}
+#header .logo{float:left; margin:12px 0 0 42px; display:inline;}
+#header .logo img{float:left;}
+#header .top_menu{float:right; margin:31px 22px 0 0; display:inline; list-style:none; height:32px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#header .top_menu li{float:left; height:32px; border-right:1px solid #737272; font-size:14px; text-transform:uppercase; line-height:18px;}
+#header .top_menu li a{ float:left; text-decoration:none; height:25px; color:#fff; padding:7px 30px 0 30px; background:url(../images/menu_bg.gif) repeat-x 0 -32px;}
+#header .top_menu li a:hover{background-position:0 0;}
+#header .top_menu li.last{border:none;}
+#header .top_menu li.first a{ background:url(../images/left_menu_hover_bg.gif) no-repeat 0 -32px;}
+#header .top_menu li.first a:hover{ background-position:0 0;}
+#header .top_menu li.last a{ background:url(../images/right_menu_hover_bg.gif) no-repeat 100% -32px;}
+#header .top_menu li.last a:hover{ background-position:100% 0;}
+#header .top_menu li.last.last_active a,#header .top_menu li.last.last_active a:hover{background-position:100% 0;}
+#header .top_menu li.active a,#header .top_menu li.active a:hover,#header .top_menu li.first.active a,#header .top_menu li.first.active a:hover{background-position:0 0;}
+
+#banner{float:left; width:100%; margin-top:45px; position:relative;}
+
+#carousel{float:left; width:456px; height:299px; margin:4px 0 0 51px; display:inline; overflow:hidden;}
+#carousel img{float:left;}
+#banner .tv_image{float:left; position:absolute; top:0; left:46px;}
+#banner .paging{float:left; width:auto; position:absolute; top:318px; left:67px; list-style:none;}
+#banner .paging li{float:left; width:13px; height:13px; margin-right:8px; display:inline;}
+#banner .paging li a{float:left; width:13px; height:13px; background:url(../images/paging_bullets.gif) no-repeat 0 0; font-size:2px;}
+#banner .paging li a:hover{background:url(../images/paging_bullets.gif) no-repeat 0 -13px;}
+#banner .paging li.active a,#banner .paging li.active a:hover{background:url(../images/paging_bullets.gif) no-repeat 0 -13px;}
+
+#banner .banner_details{float:right; width:420px; margin-top:35px; color:#fff; letter-spacing:1px; font-family:"Lucida Sans Unicode", Arial, Helvetica, sans-serif;}
+#banner .banner_details a{color:#fff; text-decoration:underline;}
+#banner .banner_details a:hover{text-decoration:none;}
+#banner .banner_details h1{float:left; width:100%; font-size:27px; line-height:31px;}
+#banner .banner_details p{float:left; width:90%; font-size:13px; line-height:18px; padding:7px 0;}
+#banner .banner_details h4{float:left; width:100%; font-size:13px; line-height:18px; font-weight:bold;}
+#banner .banner_details ul{float:left; width:100%; list-style:none;}
+#banner .banner_details ul li{display:block; padding:2px 0 0 15px; background:url(../images/banner_li_arrow.gif) no-repeat 0 7px; font-size:13px; line-height:18px;}
+#banner .banner_details .btn{float:left; margin-top:35px;}
+#banner .banner_details .btn img{float:left;}
+
+#breadcrumbs{float:left; width:946px; padding:0 0 0 42px; margin-top:30px; font:12px/18px "Myriad Pro", Arial, Helvetica, sans-serif; color:#000;}
+#breadcrumbs a{color:#fff; text-decoration:underline;}
+#breadcrumbs a:hover{text-decoration:none;}
+
+#body_container{float:left; width:956px; margin-top:26px; padding:0 0 22px 42px;}
+#body_container.index{float:left; width:944px; padding:0 32px 22px 22px; margin:22px 0;}
+
+
+#left_container{float:left; width:565px;}
+#body_container.index #left_container{ float:left; width:518px; padding-top:140px;}
+#left_container h3{float:left; width:100%; font:bold 16px/20px "Myriad Pro", Arial, Helvetica, sans-serif; color:#48494f;}
+#left_container p{float:left; width:100%; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; margin-top:10px;}
+#left_container .btn{float:left; margin-top:16px;}
+#left_container .btn .view_more_projects{float:left; margin-left:-10px; position:relative;}
+#left_container .image_gallery{float:left; width:548px; padding:6px 0;}
+#left_container .image_gallery .big_img{float:left; width:418px;}
+#left_container .image_gallery .big_img img{float:left;}
+#left_container .image_gallery .big_img_3{float:left; width:465px;}
+#left_container .image_gallery .big_img_3 img{float:left;}
+#left_container .image_gallery .img_box{float:right; width:106px; list-style:none;}
+#left_container .image_gallery .img_box li{float:left; width:106px; padding-bottom:20px;}
+#left_container .image_gallery .img_box li.last{padding-bottom:0;}
+#left_container .image_gallery .img_box li img{float:left;}
+
+#left_container .form_container{float:left; width:100%; margin-top:25px;}
+#left_container .form_container form{float:left; width:100%;}
+#left_container .form_container .form_row{float:left; width:100%; padding-bottom:12px;}
+#left_container .form_container .form_row label{float:left; width:99px; font:14px/18px "Myriad Pro", Arial, Helvetica, sans-serif; padding-top:4px;}
+#left_container .form_container .form_row input{float:left; width:236px; font:14px/18px Arial, Helvetica, sans-serif; border:none; border-left:1px solid #76923b; background:url(../images/input_bg.gif) repeat-x 0 0; padding:3px 5px 0 8px; height:26px; color:#fff;}
+#left_container .form_container .form_row textarea{float:left; width:236px; font:14px/18px Arial, Helvetica, sans-serif; border:none; border-left:1px solid #76923b; background:#93b94a url(../images/input_bg.gif) repeat-x 0 0; padding:3px 5px 3px 8px; height:89px; color:#fff;}
+#left_container .form_container .form_row input.submit{float:left; width:auto; border:none; background:none; padding:0; height:auto; margin-top:10px;}
+
+#left_container .row_container{float:left; width:100%; background:url(../images/double_dot_line.gif) repeat-x 0 0; padding:24px 0 22px 0;}
+#left_container .row_container.top{ padding-top:10px; background:none;}
+#left_container .row_container img.left{float:left; margin-right:20px; display:inline;}
+#left_container .row_container img.right{float:right; margin-left:20px; display:inline;}
+#left_container .row_container .text_box{float:left; width:340px;}
+#left_container .row_container .text_box h4{float:left; width:100%; font:bold 16px/20px "Myriad Pro", Arial, Helvetica, sans-serif;}
+#left_container .row_container .text_box p{float:left; width:100%; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; margin-top:7px;}
+#left_container .row_container .text_box p span{font-weight:bold; font-size:16px;}
+#left_container .row_container .text_box .btn{float:left; margin-top:7px;}
+#left_container .row_container .text_box .btn img{float:left;}
+
+
+#right_container{float:right; width:353px;}
+#body_container.index #right_container{float:right; width:348px; margin-top:6px;}
+#right_container .row_container{float:left; width:100%; padding-top:20px;}
+#right_container .row_container img{float:left;}
+#right_container .row_container .text_box{float:right; width:291px;}
+#right_container .row_container .text_box h4{float:left; width:100%; font:bold 16px/20px "Myriad Pro", Arial, Helvetica, sans-serif;}
+#right_container .row_container .text_box p{float:left; width:100%; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; margin-top:4px;}
+#right_container .row_container .text_box .learn_more{float:left; color:#1e93fd; text-decoration:none; padding:8px 0 4px 0; background:url(../images/dot_line.gif) repeat-x left bottom; font-size:12px;}
+#right_container .row_container .text_box .learn_more:hover{background:none;}
+
+
+.paging {float:left; padding:10px 0;}
+.paging ul {float:left;list-style:none outside none;width:auto;}
+.paging ul li {float:left;font:bold 12px/15px Arial,Helvetica,sans-serif;padding:0 5px 0 0 !important;text-transform:uppercase;width:auto !important;}
+.paging ul li a {background:url("../images/paging_l_c.gif") no-repeat scroll 0 0 transparent !important;border:medium none !important;color:#606060;float:left;padding:0 0 0 9px !important;text-decoration:none;width:auto;}
+.paging ul li a span {background:url("../images/paging_r_c.gif") no-repeat scroll right 0 transparent !important;color:#606060;cursor:pointer;float:left;padding:7px 15px 6px 5px;
+text-transform:uppercase;width:auto;}
+.paging ul li a:hover {background-position:0 -28px;border:medium none !important;color:#85b32c;}
+.paging ul li a:hover span {background-position:right -28px;color:#85b32c;}
+.paging ul li.active a {background-position:0 -28px;color:#85b32c;}
+.paging ul li.active a span {background-position:right -28px;color:#85b32c;}
+.paging ul li a:active {background-position:0 -56px;color:#85b32c;}
+.paging ul li a:active span {background-position:right -56px;color:#85b32c;}
+
+
+
+
+#right_container .testimonials{float:left; width:100%;}
+#right_container .testimonials h4{ display:block; padding:0 26px 0 0; font:bold 16px/20px "Myriad Pro", Arial, Helvetica, sans-serif; text-align:right;}
+#right_container .testimonials .testimonials_box{float:left; width:100%; background:url(../images/testimonial_box_bg.gif) repeat-y 0 0; margin-top:6px;}
+#right_container .testimonials .testimonials_box .testimonials_details{float:left; width:313px; background:url(../images/testimonial_box_b_bg.gif) no-repeat left bottom; padding:4px 20px 35px 20px;}
+#right_container .testimonials .testimonials_box .testimonials_details p{float:left; width:100%; font-family:"Myriad Pro", Arial, Helvetica, sans-serif; font-style:italic;}
+#right_container .testimonials .name{float:left; width:320px; text-align:right; font:12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#right_container .testimonials .name a{color:#48494f; text-decoration:none;}
+#right_container .testimonials .name a:hover{text-decoration:underline;}
+
+#right_container .technology_box{float:left; width:340px; margin:10px 0 0 3px; display:inline;}
+#right_container .technology_box .technology_details{float:left; width:328px; background:url(../images/technology_box_bg.gif) repeat-y 0 0; padding:0 6px;}
+#right_container .technology_box .technology_details h3{float:left; width:314px; background:#9ac646; font:bold 16px/20px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:4px 0 6px 14px; color:#fff;}
+#right_container .technology_box .technology_details ul{float:left; width:324px; list-style:none; padding:4px 0 4px 4px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#right_container .technology_box .technology_details ul li{float:left; width:302px; list-style:none; padding:11px 0 7px 22px; border-bottom:1px solid #e5e5e5; background:url(../images/tick_img.gif) no-repeat 10px 17px; font-size:13px; line-height:18px;}
+#right_container .technology_box .technology_details ul li strong{font-size:14px;}
+#right_container .technology_box .technology_details ul li.last{ border:none;}
+
+#right_container .contact_information{float:left; width:100%;}
+#right_container .contact_information h4{float:left; width:100%; padding:0; font:bold 16px/20px "Myriad Pro", Arial, Helvetica, sans-serif;}
+#right_container .contact_information p{float:left; width:100%; padding:18px 0 0 0; font:13px/22px "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+#right_container .contact_information p a{text-decoration:none; color:#48494f;}
+#right_container .contact_information p a:hover{text-decoration:underline;}
+#right_container .contact_information img.map{float:left; margin-top:2px;}
+
+#footer_container{float:left; width:100%; border-top:1px solid #dcdcdd; padding:10px 0 32px 0; font-size:11px; color:#797a7e; line-height:18px;}
+#footer_container .footer{width:998px; margin:0 auto;}
+#footer_container .footer .copy_right{float:left; width:auto;}
+#footer_container .footer .footer_link{float:right; width:auto; margin-right:36px; display:inline; list-style:none;}
+#footer_container .footer .footer_link li{float:left; width:auto; padding:0 3px 0 2px;}
+#footer_container .footer .footer_link li a{color:#797a7e; text-decoration:none;}
+#footer_container .footer .footer_link li a:hover{text-decoration:underline;}
